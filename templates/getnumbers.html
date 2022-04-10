@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <title></title>
+  </head>
+  <body>
+    <form action="result/" method="post">
+      {% csrf_token %}
+      <label for="num1">Enter num 1</label>
+      <input id="num1" type="number" name="num1" value="" />
+      <label for="num2">Enter num 2</label>
+      <input id="num2" type="number" name="num2" value="" />
+      <input type="submit" value="SUBMIT" />
+    </form>
+  </body>
+</html>
